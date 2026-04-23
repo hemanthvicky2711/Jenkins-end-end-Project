@@ -19,7 +19,14 @@ Launch 4 instances with the following :
 3. SONAR   - t3.medium with 20GB of EBS( volume )
 4. NEXUS   - t3.medium with 20GB of EBS
 
-Setup all 4 servers alon with thier required dependencies.
+Setup all 4 servers along with their required dependencies.
 
 **STEP - 2**
+
+Login into Jenkins dashboard and install these following plugins
+
+1. Sonar Scanner : to scan the code
+2. Nexus Artifactory Uploaded : to store the files in nexus
+3. SSH Agent : to send these files from one server to another server
+
 
